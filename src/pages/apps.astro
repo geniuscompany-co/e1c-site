@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Apps" description="Entrepreneur apps from E1C. Tools that make it easier to actually run Revenue First tests, not just read about them. Coming soon.">
+  <section class="hero section--tight">
+    <div class="container">
+      <span class="eyebrow">Apps</span>
+      <h1>Entrepreneur apps. Coming soon.</h1>
+      <p class="lede">We're building tools that make it easier to actually run Revenue First tests &mdash; not just read about them.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <hr class="rule" />
+      <p class="lede">Every app we build has to pass its own Proof Round before it ships. So if there isn't much here yet, that's on purpose &mdash; we're holding ourselves to the same standard as the framework.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="gate-card" style="max-width:640px; margin:0 auto; text-align:center;">
+        <h2>Want early access when the first app ships?</h2>
+        <p class="muted">Leave your email and we'll let you know the moment it's live.</p>
+        <!-- This form has no backend yet. Connect it to an email service before launch. -->
+        <form class="field-row" style="justify-content:center;">
+          <input type="email" name="email" placeholder="you@email.com" required />
+          <button type="submit" class="btn btn--primary">Notify me</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</Layout>

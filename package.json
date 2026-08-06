@@ -1,0 +1,19 @@
+{
+  "name": "e1c-net",
+  "version": "1.0.0",
+  "description": "E1C (Entrepreneur's First Choice) marketing site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "astro": "^7.1.6",
+    "sharp": "^0.35.3"
+  },
+  "type": "module"
+}
