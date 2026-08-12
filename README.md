@@ -36,3 +36,6 @@ npm run build
 ```
 
 Outputs static files to `dist/`.
+
+
+_GA4 tracking added._
